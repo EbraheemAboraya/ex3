@@ -1,0 +1,508 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header,
+main,
+footer,
+body,
+div,
+nav,
+aside {
+    display: block;
+}
+
+main {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    /* height: 995px; */
+}
+
+
+
+header {
+    position: relative;
+    width: 1440px;
+    height: 123px;
+    left: 0px;
+    top: 0px;
+    margin: 0 auto;
+    background: #F2E9E9;
+}
+
+/*/////////////////////////////////////////////////* index */
+#index_wrapper {
+    position: relative;
+    width: 889px;
+    margin: 0 auto;
+    margin-bottom: 145px;
+}
+
+ul.first {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul.first>li {
+    margin-top: 52px;
+    margin-left: 18px;
+}
+div.dot{
+    
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 100px;
+    background-color: #F72828;
+    margin-top: 34px;
+}
+#index_dot{
+    left:608px ;
+}
+#layout2_dot{
+    left:683px;
+}
+#layout3_dot{
+    margin-top:105px;
+    left:301px;
+}
+
+
+main>div.column>ul.first {
+    margin-top: 123px;
+}
+
+a:hover {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.indexmain {
+
+    width: 881px;
+    height: 624px;
+    left: 244px;
+    margin-top: 91px;
+
+}
+
+.indexmain>.text {
+    position: absolute;
+    left: 0%;
+    right: 57.55%;
+    top: 28.21%;
+    bottom: 52.56%;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+    display: flex;
+}
+
+.indexmain>.text>div:first-child {
+    position: absolute;
+    right: 37.43%;
+    bottom: 19.17%;
+    font-size: 72px;
+    line-height: 96px;
+}
+
+.indexmain>.text>div:last-child {
+    position: absolute;
+    right: 0%;
+    top: 72.5%;
+    bottom: 0%;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.indexmain>.rectangles {
+    position: absolute;
+    left: 50.4%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.indexmain>.rectangles>div {
+    background: #EBEF18;
+    position: absolute;
+}
+
+.indexmain>.rectangles>.rectangle1 {
+    left: 34.1%;
+    right: 9.61%;
+    top: 7.05%;
+    bottom: 36.54%;
+}
+
+.indexmain>.rectangles>.rectangle2 {
+    left: 93.59%;
+    right: 0%;
+    top: 0%;
+    bottom: 91.19%;
+}
+
+.indexmain>.rectangles>.rectangle3 {
+    left: 93.59%;
+    right: 0%;
+    top: 10.58%;
+    bottom: 80.61%;
+}
+
+.indexmain>.rectangles>.rectangle4 {
+    left: 93.59%;
+    right: 0%;
+    top: 21.15%;
+    bottom: 70.03%;
+}
+
+.indexmain>.rectangles>.rectangle5 {
+    left: 34.1%;
+    right: 9.61%;
+    top: 7.05%;
+    bottom: 36.54%;
+}
+
+
+.indexmain>.rectangles>.rectangle6 {
+    left: 93.59%;
+    right: 0%;
+    top: 31.73%;
+    bottom: 36.54%;
+}
+
+.indexmain>.rectangles>.rectangle7 {
+    left: 0%;
+    right: 82.84%;
+    top: 7.05%;
+    bottom: 89.26%;
+}
+
+.indexmain>.rectangles>.rectangle8 {
+    left: 0%;
+    right: 68.88%;
+    top: 12.02%;
+    bottom: 80.61%;
+}
+
+.indexmain>.rectangles>.rectangle9 {
+    left: 0%;
+    right: 69.34%;
+    top: 21.15%;
+    bottom: 14.1%;
+}
+
+.indexmain>.rectangles>.rectangle10 {
+    left: 34.1%;
+    right: 37.76%;
+    top: 66.03%;
+    bottom: 0%;
+}
+
+.indexmain>.rectangles>.rectangle11 {
+    left: 65.45%;
+    right: 21.97%;
+    top: 66.03%;
+    bottom: 17.15%;
+}
+
+.indexmain>.rectangles>.rectangle12 {
+    left: 87.41%;
+    right: 0%;
+    top: 66.03%;
+    bottom: 17.15%;
+}
+
+.indexmain>.rectangles>.rectangle13 {
+    left: 65.45%;
+    right: 9.38%;
+    top: 83.97%;
+    bottom: 6.73%;
+}
+
+.indexmain>.rectangles>.rectangle14 {
+    left: 0%;
+    right: 79.86%;
+    top: 87.66%;
+    bottom: 7.85%;
+}
+
+.indexmain>.rectangles>.rectangle15 {
+    left: 0%;
+    right: 94.28%;
+    top: 93.27%;
+    bottom: 2.56%;
+}
+
+.indexmain>.rectangles>.rectangle16 {
+    left: 7.32%;
+    right: 86.96%;
+    top: 93.27%;
+    bottom: 2.56%;
+}
+
+footer {
+    position: relative;
+    width: 1440px;
+    height: 41px;
+    left: 0px;
+    background: #000000;
+    margin: 0 auto;
+}
+
+/*/////////////////////////////////////////////////* layout2 */
+
+.layout2_wrapper {
+    display: flex;
+    left: 1200px;
+    height: 1860px;
+    width: 1289px;
+    position: relative;
+    left: 75.5px;
+}
+
+.staris_box {
+    position: absolute;
+    flex-direction: row;
+    width: 969px;
+    height: 467px;
+    left: 151px;
+
+}
+
+.staris_col1_left {
+    width: 457px;
+    height: 1782px;
+    left: 151px;
+}
+
+.staris_col1_left>div {
+    height: 299px;
+    width: 457px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    background: #C4C4C4;
+}
+
+.staris_col1_left>div:first-child {
+    margin-top: 119px;
+}
+
+
+.staris_col2_right {
+    width: 457px;
+    height: 1573px;
+    top: 410px;
+    margin-left: 55px;
+}
+
+.staris_col2_right>div {
+    height: 299px;
+    width: 457px;
+    margin-top: 70px;
+    margin-left: 50px;
+    background: #C4C4C4;
+    display: flex;
+    flex-direction: column;
+}
+
+.staris_col2_right>div:first-child {
+    margin-top: 287px;
+}
+
+.staris_col2_right>div:last-child {
+    height: 97px;
+}
+
+.staris_col1_left>div:last-child {
+    height: 265px;
+}
+
+aside {
+    width: 169px;
+    height: 1860px;
+    margin-left: 151px;
+    top: 123px;
+    flex-direction: row;
+    background: #EBEF18;
+}
+
+aside>div.rectangle1_black {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 242px;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+}
+
+aside>div.rectangle1_white {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-left: 89px;
+    margin-top: 45px;
+    ;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #000000;
+}
+
+aside>div.rectangle2_black {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+    margin-left: 0px;
+    margin-top: 289px;
+
+}
+
+aside>ul {
+    position: relative;
+    margin-top: 150px;
+    margin-left: 44px;
+    list-style: none;
+
+}
+
+aside>ul>li>a {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 128px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+}
+
+/*/////////////////////////////////////////////////* layout3 */
+div.layout3_wrapper {
+    position: relative;
+    width: 1440px;
+    left: 0px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    height: 1581px;
+    margin-bottom: 1px;
+}
+
+header>div.black-layout3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 1336px;
+    top: 21px;
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+}
+
+main>nav.box1 {
+    position: absolute;
+    width: 372px;
+    height: 995px;
+    left: 0px;
+    background: #E5E5E5;
+}
+
+main>div.box2 {
+    position: absolute;
+    width: 104px;
+    height: 995px;
+    left: 1336px;
+    background: rgba(24, 71, 239, 0.3);
+}
+
+main>div.box3 {
+    position: absolute;
+    width: 1440px;
+    height: 463px;
+    left: 0px;
+    top: 995px;
+    background: #EBEF18;
+}
+
+main>nav>ul.first>li {
+    margin-top: 123px;
+    margin-left: 18px;
+}
+
+
+main>footer {
+    position: absolute;
+    top: 1459px;
+}
+
+
+
+@media screen and (max-width:850px) {
+    div.layout3_wrapper {
+        width: 850px;
+        height: 2024px;
+    }
+
+    header {
+        width: 850px;
+    }
+
+    main>nav.box1 {
+        width: 850px;
+        height: 105px;
+    }
+
+    main>nav.box1>ul.first>li {
+        margin-top: 45px;
+    }
+
+    main>div.box2 {
+        display: none;
+    }
+
+    main>div.box3 {
+        width: 850px;
+        height: 409px;
+        top: 1598px;
+    }
+
+    header>div.black-layout3 {
+        left: 744px;
+    }
+
+    main>footer {
+
+        width: 850px;
+        top: 1983px;
+    }
+
+    main>nav.box1>ul.first {
+        width: auto;
+    }
+    div.dot{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    margin-top: 27px;
+    background: #F72828;
+    }
+    #layout3_dot{
+        margin-top:27px;
+        left:560px;
+    }
+}
